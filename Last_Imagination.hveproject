@@ -1,3 +1,4 @@
 Project: Last_Imagination
-AssetPath: /Assets
-StartingScene: Assets/Scenes/Main_Scene.hvescn
+AssetPath: Assets
+AssetRegistry: AssetRegistry.hvereg
+StartingScene: 1157402806

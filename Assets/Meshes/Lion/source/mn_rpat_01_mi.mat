@@ -1,0 +1,11 @@
+Diffuse=mn_rpat_00-1_d
+Normal=mn_rpat_00-1_n
+Specular=mn_rpat_00-1_s
+SpecPower=brdf_beckmann_spec
+Other[0]=spec
+Other[1]=hdr07_1
+Other[2]=normal
+Other[3]=diffuse
+Other[4]=flat_red
+Other[5]=flat_black
+Other[6]=statefx_default

@@ -1,54 +1,40 @@
-Scene: Main_Scene
+Scene:
+  Handle: 1157402806
+  Name: Main_Scene
 Entities:
-  - Entity: 992474131
-    Tag: Default scene camera
-    LocalTransformComponent:
-      Position: [1.14999998, 3.8499999, 0]
-      Rotation: [-0.644060552, 1.18069148, 0]
-      Scale: [1, 1, 1]
-    WorldTransformComponent:
-      Position: [1.14999998, 3.8499999, 0]
-      Rotation: [-0.644060493, 1.18069148, 0]
-      Scale: [0.99999994, 1, 1]
-    Camera:
-      ProjectionType: 1
-      PerspectiveFOV: 45
-      Near: 1000
-      Far: 0.100000001
-  - Entity: 1620113609
-    Tag: Lion
-    LocalTransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, 0, 0]
-      Scale: [0.100000001, 0.100000001, 0.100000001]
-    WorldTransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [0.100000001, 0.100000001, 0.100000001]
-    Mesh:
-      FilePath: C:\Users\sedel\Downloads\Lion\source\lion\lion.FBX
-    Children:
-      - Entity: 780439298
-        Tag: Empty Entity
-        LocalTransformComponent:
-          Position: [0, 0, 0]
-          Rotation: [0, 0, 0]
-          Scale: [1, 1, 1]
-        WorldTransformComponent:
-          Position: [0, 0, 0]
-          Rotation: [0, -0, 0]
-          Scale: [0.100000001, 0.100000001, 0.100000001]
-  - Entity: 3024107514
+  - Entity: 1713987171
     Tag: Sun
     LocalTransformComponent:
-      Position: [0.5, 0.699999988, 0]
-      Rotation: [0, 0, 0]
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     WorldTransformComponent:
-      Position: [0.5, 0.699999988, 0]
+      Position: [0, 0, 0]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     DirectionalLight:
       Color: [1, 1, 1]
       Direction: [-0.200000003, -1, -0.300000012]
       Intensity: 1
+  - Entity: 3782211478
+    Tag: Lion
+    LocalTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    Mesh:
+      Handle: 2107762386
+  - Entity: 3982077037
+    Tag: Empty Entity
+    LocalTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]

@@ -1,0 +1,37 @@
+AssetRegistry:
+  - Handle: 771426509
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_cm.png
+    Type: Texture
+  - Handle: 2759616051
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_n.png
+    Type: Texture
+  - Handle: 3891020616
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_d.png
+    Type: Texture
+  - Handle: 267282250
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_m.png
+    Type: Texture
+  - Handle: 1120478174
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_cm.png
+    Type: Texture
+  - Handle: 838558135
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_s.png
+    Type: Texture
+  - Handle: 1652518942
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_d.png
+    Type: Texture
+  - Handle: 1697158804
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_emissive.png
+    Type: Texture
+  - Handle: 697954189
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_s.png
+    Type: Texture
+  - Handle: 830867483
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_n.png
+    Type: Texture
+  - Handle: 1157402806
+    FilePath: Assets\Scenes\Main_Scene.hvescn
+    Type: Scene
+  - Handle: 2107762386
+    FilePath: Assets\Meshes\Lion\source\lion.FBX
+    Type: MeshSource
