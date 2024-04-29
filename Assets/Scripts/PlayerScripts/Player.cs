@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b6c821c1c03c840b2991c6abc00440e88c7912af38ff5d59a9e25c3d044f8207
-size 916
+﻿using Helios;
+using System;
+using System.Numerics;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Last_Imagination
+{
+    public class Player : Entity
+    {
+        private TransformComponent m_Transform;
+        void OnCreate()
+        {
+            m_Transform = GetComponent<TransformComponent>();
+            m_Transform.Translation = new Vector3(1.0f);
+            Console.WriteLine($"Player {ID} created");
+            Console.WriteLine($"Has the transform component: {HasComponent<TransformComponent>()}");
+        }
+
+        void OnUpdate(float delta_time)
+        {
+            // Console.WriteLine($"Player updating, delta time {delta_time}");
+            Vector3 vector3 = m_Transform.Translation;
+            vector3.X += 1.0f * delta_time;
+            m_Transform.Translation = vector3;
+        }
+    }
+}
