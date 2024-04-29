@@ -1,1 +1,8 @@
 Assets/*
+Binaries/*.sln
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+.vs/
+.vscode/

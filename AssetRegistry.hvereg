@@ -1,4 +1,7 @@
 AssetRegistry:
+  - Handle: 697954189
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_s.png
+    Type: Texture
   - Handle: 771426509
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_cm.png
     Type: Texture
@@ -14,17 +17,11 @@ AssetRegistry:
   - Handle: 1120478174
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00_cm.png
     Type: Texture
-  - Handle: 838558135
-    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_s.png
-    Type: Texture
   - Handle: 1652518942
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00_d.png
     Type: Texture
-  - Handle: 1697158804
-    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_emissive.png
-    Type: Texture
-  - Handle: 697954189
-    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_s.png
+  - Handle: 838558135
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_s.png
     Type: Texture
   - Handle: 830867483
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00_n.png
@@ -35,3 +32,15 @@ AssetRegistry:
   - Handle: 2107762386
     FilePath: Assets\Meshes\Lion\source\lion.FBX
     Type: MeshSource
+  - Handle: 2690334057
+    FilePath: Assets\Meshes\Lion\textures\mn_rpat_00-1_d.png
+    Type: Texture
+  - Handle: 11717909310150256743
+    FilePath: Assets\Meshes\Dragon\source\Tarisland - Dragon\M_B_44_Qishilong_skin_Skeleton.FBX
+    Type: MeshSource
+  - Handle: 12966387179108173351
+    FilePath: Assets\Meshes\Emily_FBX_Idle Animation\Emily_Idle.fbx
+    Type: MeshSource
+  - Handle: 1697158804
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_emissive.png
+    Type: Texture
