@@ -2,3 +2,4 @@ Project: Last_Imagination
 AssetPath: Assets
 AssetRegistry: AssetRegistry.hvereg
 StartingScene: 1157402806
+ScriptAssembly: Binaries/Last_Imagination.dll
