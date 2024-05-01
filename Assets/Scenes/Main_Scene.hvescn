@@ -14,13 +14,13 @@ Entities:
       Scale: [1, 1, 1]
     DirectionalLight:
       Color: [1, 1, 1]
-      Direction: [-0.200000003, -1, -0.300000012]
+      Direction: [-0.31895411, -0.656059027, -0.683999181]
       Intensity: 1
   - Entity: 3782211478
     Tag: Lion
     LocalTransformComponent:
       Position: [0, 5.68630362, 0]
-      Rotation: [0, 0, 0]
+      Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     WorldTransformComponent:
       Position: [0, 5.68630362, 0]
@@ -38,14 +38,14 @@ Entities:
     Mesh:
       Handle: 2107762386
     BoxCollider:
-      HalfSize: [11.5, 13.3999996, 6.4000001]
-      Offset: [0.100000001, 6.80000019, 0]
+      HalfSize: [4.69999981, 5.9000001, 2.79999995]
+      Offset: [-0.699999988, 5.5999999, 0]
       MotionType: Dynamic
   - Entity: 6426099926024237573
     Tag: Camera
     LocalTransformComponent:
       Position: [0, 6.54936075, 0]
-      Rotation: [0, 0, 0]
+      Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     WorldTransformComponent:
       Position: [0, 6.54936075, 0]
@@ -65,12 +65,14 @@ Entities:
     LocalTransformComponent:
       Position: [0, 0, 0]
       Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
+      Scale: [28.658186, 1, 21.3674393]
     WorldTransformComponent:
       Position: [0, 0, 0]
       Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
+      Scale: [28.658186, 1, 21.3674393]
+    Mesh:
+      Handle: 8257606661965876714
     BoxCollider:
-      HalfSize: [23.7999992, 0.5, 26.3999996]
+      HalfSize: [1, 1, 1]
       Offset: [0, 0, 0]
       MotionType: Static
