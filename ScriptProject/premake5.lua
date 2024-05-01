@@ -13,8 +13,9 @@ dotnetframework "4.7.2"
 targetdir "../Binaries"
 objdir "../Binaries/Intermediates"
 namespace "Last_Imagination"
-location"../Assets/Scripts"links {
-	"ScriptCore",
+location"../Assets/Scripts"
+links {
+	os.getenv("HVE_ROOT_DIR") .. "/Editor/Resources/Scripts/ScriptCore",
 	os.getenv("HVE_ROOT_DIR") .. "/Editor/mono/lib/mono/4.5/System.Numerics",
 	os.getenv("HVE_ROOT_DIR") .. "/Editor/mono/lib/mono/4.5/System.Numerics.Vectors",
 }

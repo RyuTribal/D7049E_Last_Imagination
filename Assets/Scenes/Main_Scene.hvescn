@@ -1,3 +1,76 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:44edfc573db9cc4a12de7894be329ac77349c928926b9f2773b1dda8b3ff7d44
-size 1347
+Scene:
+  Handle: 1157402806
+  Name: Main_Scene
+Entities:
+  - Entity: 1713987171
+    Tag: Sun
+    LocalTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    DirectionalLight:
+      Color: [1, 1, 1]
+      Direction: [-0.200000003, -1, -0.300000012]
+      Intensity: 1
+  - Entity: 3782211478
+    Tag: Lion
+    LocalTransformComponent:
+      Position: [0, 5.68630362, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 5.68630362, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    Script:
+      ClassName: Last_Imagination.Player
+    Camera:
+      ProjectionType: 1
+      PerspectiveFOV: 45
+      Near: 0.100000001
+      Far: 1000
+      Zoom: 30
+      IsPrimary: false
+    Mesh:
+      Handle: 2107762386
+    BoxCollider:
+      HalfSize: [11.5, 13.3999996, 6.4000001]
+      Offset: [0.100000001, 6.80000019, 0]
+      MotionType: Dynamic
+  - Entity: 6426099926024237573
+    Tag: Camera
+    LocalTransformComponent:
+      Position: [0, 6.54936075, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 6.54936075, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    Script:
+      ClassName: Last_Imagination.Camera
+    Camera:
+      ProjectionType: 1
+      PerspectiveFOV: 45
+      Near: 0.100000001
+      Far: 1000
+      Zoom: 30
+      IsPrimary: true
+  - Entity: 6942653108807427580
+    Tag: Floor
+    LocalTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxCollider:
+      HalfSize: [23.7999992, 0.5, 26.3999996]
+      Offset: [0, 0, 0]
+      MotionType: Static

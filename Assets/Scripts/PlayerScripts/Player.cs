@@ -10,21 +10,38 @@ namespace Last_Imagination
 {
     public class Player : Entity
     {
-        private TransformComponent m_Transform;
+        private BoxColliderComponent m_BoxCollider;
+
+        [HVEEditableField]
+        private float Speed = 10.0f;
+
+        [HVEEditableField]
+        private float Max_Speed = 100.0f;
         void OnCreate()
         {
-            m_Transform = GetComponent<TransformComponent>();
-            m_Transform.Translation = new Vector3(1.0f);
+            m_BoxCollider = GetComponent<BoxColliderComponent>();
             Console.WriteLine($"Player {ID} created");
-            Console.WriteLine($"Has the transform component: {HasComponent<TransformComponent>()}");
         }
 
         void OnUpdate(float delta_time)
         {
             // Console.WriteLine($"Player updating, delta time {delta_time}");
-            Vector3 vector3 = m_Transform.Translation;
-            vector3.X += 1.0f * delta_time;
-            m_Transform.Translation = vector3;
+           
+            if(m_BoxCollider != null) 
+            {
+                Vector3 velocity = new Vector3(0.0f);
+                if (IsKeyPressed(KeyCode.D))
+                {
+                    velocity.X += Speed;
+                }
+
+                if(IsKeyPressed(KeyCode.A)) 
+                {
+                    velocity.X += -Speed;
+                }
+
+                m_BoxCollider.AddLinearVelocity(velocity * delta_time);
+            }
         }
     }
 }
