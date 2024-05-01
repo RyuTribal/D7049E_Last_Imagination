@@ -8,6 +8,9 @@ AssetRegistry:
   - Handle: 2759616051
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_n.png
     Type: Texture
+  - Handle: 844203166333204936
+    FilePath: Assets\Meshes\Primitives\Cylinder.fbx
+    Type: MeshSource
   - Handle: 3891020616
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_d.png
     Type: Texture
@@ -35,12 +38,24 @@ AssetRegistry:
   - Handle: 2690334057
     FilePath: Assets\Meshes\Lion\textures\mn_rpat_00-1_d.png
     Type: Texture
-  - Handle: 11717909310150256743
-    FilePath: Assets\Meshes\Dragon\source\Tarisland - Dragon\M_B_44_Qishilong_skin_Skeleton.FBX
-    Type: MeshSource
   - Handle: 12966387179108173351
     FilePath: Assets\Meshes\Emily_FBX_Idle Animation\Emily_Idle.fbx
+    Type: MeshSource
+  - Handle: 11717909310150256743
+    FilePath: Assets\Meshes\Dragon\source\Tarisland - Dragon\M_B_44_Qishilong_skin_Skeleton.FBX
     Type: MeshSource
   - Handle: 1697158804
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00_emissive.png
     Type: Texture
+  - Handle: 9098347062099199486
+    FilePath: Assets\Meshes\Primitives\Cone.fbx
+    Type: MeshSource
+  - Handle: 8257606661965876714
+    FilePath: Assets\Meshes\Primitives\Cube.fbx
+    Type: MeshSource
+  - Handle: 14721588791511887632
+    FilePath: Assets\Meshes\Primitives\Pyramid.fbx
+    Type: MeshSource
+  - Handle: 2112335568811613447
+    FilePath: Assets\Meshes\Primitives\Sphere.fbx
+    Type: MeshSource
