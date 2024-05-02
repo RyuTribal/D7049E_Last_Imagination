@@ -59,3 +59,9 @@ AssetRegistry:
   - Handle: 2112335568811613447
     FilePath: Assets\Meshes\Primitives\Sphere.fbx
     Type: MeshSource
+  - Handle: 2497089337552318983
+    FilePath: Assets\Sounds\delphi_loop.ogg
+    Type: Audio
+  - Handle: 2108588432588945380
+    FilePath: Assets\Sounds\ahhh-sound-effect-made-with-Voicemod.mp3
+    Type: Audio

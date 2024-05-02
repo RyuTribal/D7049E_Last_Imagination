@@ -85,6 +85,7 @@
   <ItemGroup>
     <Compile Include="PlayerScripts\Camera.cs" />
     <Compile Include="PlayerScripts\Player.cs" />
+    <Compile Include="PlayerScripts\Testing.cs" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
