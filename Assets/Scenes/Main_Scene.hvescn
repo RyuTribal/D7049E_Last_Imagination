@@ -5,16 +5,16 @@ Entities:
   - Entity: 1713987171
     Tag: Sun
     LocalTransformComponent:
-      Position: [0, 0, 0]
+      Position: [-0.00152206421, 0.0583534241, -0.0802955553]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     WorldTransformComponent:
-      Position: [0, 0, 0]
+      Position: [-0.00152206421, 0.0583534241, -0.0802955553]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     DirectionalLight:
       Color: [1, 1, 1]
-      Direction: [-0.31895411, -0.656059027, -0.683999181]
+      Direction: [0.6977157, 0.0277087558, -0.17272456, -0.694958448]
       Intensity: 1
   - Entity: 3782211478
     Tag: Lion
@@ -34,13 +34,18 @@ Entities:
       Near: 0.100000001
       Far: 1000
       Zoom: 30
-      IsPrimary: false
+      IsPrimary: true
     Mesh:
       Handle: 2107762386
     BoxCollider:
-      HalfSize: [4.69999981, 5.9000001, 2.79999995]
+      HalfSize: [4.69999981, 5.5999999, 2.79999995]
       Offset: [-0.699999988, 5.5999999, 0]
       MotionType: Dynamic
+    GlobalSounds:
+      - Title: Untitled Sound
+        Handle: 2108588432588945380
+        Looping: false
+        Volume: 0.111000001
   - Entity: 6426099926024237573
     Tag: Camera
     LocalTransformComponent:
@@ -76,3 +81,15 @@ Entities:
       HalfSize: [1, 1, 1]
       Offset: [0, 0, 0]
       MotionType: Static
+  - Entity: 6051760811940563416
+    Tag: New Mesh Entity
+    LocalTransformComponent:
+      Position: [13.5716915, 10.4867783, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [13.5716915, 10.4867783, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    Mesh:
+      Handle: 2112335568811613447

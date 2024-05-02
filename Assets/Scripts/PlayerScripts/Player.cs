@@ -11,6 +11,7 @@ namespace Last_Imagination
     public class Player : Entity
     {
         private BoxColliderComponent m_BoxCollider;
+        private GlobalSoundsComponent m_Sounds;
 
         [HVEEditableField]
         private float Speed = 10.0f;
@@ -28,11 +29,12 @@ namespace Last_Imagination
         private Vector2 m_DeltaPos = new Vector2(0.0f);
 
         [HVEEditableField]
-        private bool Inverse = false;
+        private bool Inverse = true;
 
         void OnCreate()
         {
             m_BoxCollider = GetComponent<BoxColliderComponent>();
+            m_Sounds = GetComponent<GlobalSoundsComponent>();
             Console.WriteLine($"Player {ID} created");
 
             m_Camera = GetComponent<CameraComponent>();
@@ -73,6 +75,11 @@ namespace Last_Imagination
                 }
 
                 m_BoxCollider.AddLinearVelocity(velocity * delta_time);
+            }
+
+            if(m_Sounds != null && IsKeyPressed(KeyCode.Space))
+            {
+                m_Sounds.PlaySoundAtIndex(0);
             }
 
 

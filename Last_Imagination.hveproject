@@ -3,3 +3,8 @@ AssetPath: Assets
 AssetRegistry: AssetRegistry.hvereg
 StartingScene: 1157402806
 ScriptAssembly: Binaries/Last_Imagination.dll
+Renderer:
+  AntiAliasing:
+    Type: Multi Sampling
+    PostProcessing: None
+    Multiplier: 16
