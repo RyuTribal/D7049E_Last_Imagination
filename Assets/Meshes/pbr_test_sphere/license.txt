@@ -1,0 +1,11 @@
+Model Information:
+* title:	PBR Test Sphere
+* source:	https://sketchfab.com/3d-models/pbr-test-sphere-066c98dd34b74cc9b055b16dc96ac68e
+* author:	drocclusion (https://sketchfab.com/drocclusion)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PBR Test Sphere" (https://sketchfab.com/3d-models/pbr-test-sphere-066c98dd34b74cc9b055b16dc96ac68e) by drocclusion (https://sketchfab.com/drocclusion) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
