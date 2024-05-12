@@ -1,6 +1,9 @@
 Scene:
   Handle: 1157402806
   Name: Main_Scene
+  Skybox:
+    Texture: 6655606017207834238
+    Brightness: 1.79999995
 Entities:
   - Entity: 1713987171
     Tag: Sun
@@ -14,8 +17,9 @@ Entities:
       Scale: [1, 1, 1]
     DirectionalLight:
       Color: [1, 1, 1]
-      Direction: [0.6977157, 0.0277087558, -0.17272456, -0.694958448]
+      Direction: [0.00806887727, -0.998047113, 0.0619769245]
       Intensity: 1
+      IsCastingShadows: true
   - Entity: 3782211478
     Tag: Lion
     LocalTransformComponent:
@@ -93,3 +97,15 @@ Entities:
       Scale: [1, 1, 1]
     Mesh:
       Handle: 2112335568811613447
+  - Entity: 2558583908428923971
+    Tag: New Mesh Entity
+    LocalTransformComponent:
+      Position: [0, 8.06523705, 9.57468224]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    WorldTransformComponent:
+      Position: [0, 8.06523705, 9.57468224]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    Mesh:
+      Handle: 12605544738455966044
