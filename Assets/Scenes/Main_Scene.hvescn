@@ -19,7 +19,7 @@ Entities:
       Color: [1, 1, 1]
       Direction: [0.00806887727, -0.998047113, 0.0619769245]
       Intensity: 1
-      IsCastingShadows: true
+      IsCastingShadows: false
   - Entity: 3782211478
     Tag: Lion
     LocalTransformComponent:
@@ -41,10 +41,11 @@ Entities:
       IsPrimary: true
     Mesh:
       Handle: 2107762386
-    BoxCollider:
-      HalfSize: [4.69999981, 5.5999999, 2.79999995]
-      Offset: [-0.699999988, 5.5999999, 0]
-      MotionType: Dynamic
+    CharacterController:
+      Radius: 5.5
+      Offset: [-0.5, 6, 0]
+      HalfHeight: 1
+      Mass: 80
     GlobalSounds:
       - Title: Untitled Sound
         Handle: 2108588432588945380
@@ -100,12 +101,20 @@ Entities:
   - Entity: 2558583908428923971
     Tag: New Mesh Entity
     LocalTransformComponent:
-      Position: [0, 8.06523705, 9.57468224]
+      Position: [-20.0788479, 5.54435444, 15.7697582]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     WorldTransformComponent:
-      Position: [0, 8.06523705, 9.57468224]
+      Position: [-20.0788479, 5.54435444, 15.7697582]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
+    Script:
+      ClassName: Last_Imagination.Testing
     Mesh:
       Handle: 12605544738455966044
+    LocalSounds:
+      - Title: Untitled Sound
+        Handle: 2108588432588945380
+        Looping: false
+        Volume: 1
+        Rolloff: 0.100000001
