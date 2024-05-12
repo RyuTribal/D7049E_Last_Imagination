@@ -10,23 +10,25 @@ namespace Last_Imagination
 {
     public class Testing : Entity
     {
-        private BoxColliderComponent m_Coller;
+        private LocalSoundsComponent m_Sound;
 
         public void OnCreate()
         {
-            m_Coller = GetComponent<BoxColliderComponent>();
+            m_Sound = GetComponent<LocalSoundsComponent>();
         }
         public void OnUpdate(float dt)
         {
-            if (m_Coller != null)
+            if (m_Sound != null)
             {
-                if (IsKeyPressed(KeyCode.D))
+                if (IsKeyPressed(KeyCode.Space))
                 {
-                    Vector3 velocity = new Vector3(0.0f);
-                    velocity.X = 10.0f * dt;
-                    m_Coller.AddLinearVelocity(velocity);
+                    m_Sound.PlaySoundAtIndex(0);
                 }
                 
+            }
+            else
+            {
+                Console.WriteLine("Empty");
             }
 
             

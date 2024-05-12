@@ -10,8 +10,9 @@ namespace Last_Imagination
 {
     public class Player : Entity
     {
+        private CharacterControllerComponent m_CharacterControllerComponent;
         private BoxColliderComponent m_BoxCollider;
-        private GlobalSoundsComponent m_Sounds;
+        private SphereColliderComponent m_SphereColliderComponent;
 
         [HVEEditableField]
         private float Speed = 10.0f;
@@ -33,8 +34,9 @@ namespace Last_Imagination
 
         void OnCreate()
         {
+            m_CharacterControllerComponent = GetComponent<CharacterControllerComponent>();
+            m_SphereColliderComponent = GetComponent<SphereColliderComponent>();
             m_BoxCollider = GetComponent<BoxColliderComponent>();
-            m_Sounds = GetComponent<GlobalSoundsComponent>();
             Console.WriteLine($"Player {ID} created");
 
             m_Camera = GetComponent<CameraComponent>();
@@ -45,7 +47,38 @@ namespace Last_Imagination
         {
             // Console.WriteLine($"Player updating, delta time {delta_time}");
            
-            if(m_BoxCollider != null) 
+            if(m_CharacterControllerComponent != null)
+            {
+                Vector3 velocity = new Vector3(0.0f);
+                Vector3 forward_vector = m_Camera.GetForwardDirection();
+                Vector3 right_vector = m_Camera.GetRightDirection();
+                if (IsKeyPressed(KeyCode.D))
+                {
+                    Vector3 right = right_vector * Speed;
+                    velocity += right;
+                }
+
+                if (IsKeyPressed(KeyCode.A))
+                {
+                    Vector3 left = right_vector * -Speed;
+                    velocity += left;
+                }
+
+                if (IsKeyPressed(KeyCode.W))
+                {
+                    Vector3 forward = forward_vector * Speed;
+                    velocity += forward;
+                }
+
+                if (IsKeyPressed(KeyCode.S))
+                {
+                    Vector3 back = forward_vector * -Speed;
+                    velocity += back;
+                }
+
+                m_CharacterControllerComponent.AddLinearVelocity(velocity * delta_time);
+            }
+            else if(m_BoxCollider != null) 
             {
                 Vector3 velocity = new Vector3(0.0f);
                 Vector3 forward_vector = m_Camera.GetForwardDirection();
@@ -76,10 +109,36 @@ namespace Last_Imagination
 
                 m_BoxCollider.AddLinearVelocity(velocity * delta_time);
             }
-
-            if(m_Sounds != null && IsKeyPressed(KeyCode.Space))
+            else if(m_SphereColliderComponent != null) 
             {
-                m_Sounds.PlaySoundAtIndex(0);
+                Vector3 velocity = new Vector3(0.0f);
+                Vector3 forward_vector = m_Camera.GetForwardDirection();
+                Vector3 right_vector = m_Camera.GetRightDirection();
+                if (IsKeyPressed(KeyCode.D))
+                {
+                    Vector3 right = right_vector * Speed;
+                    velocity += right;
+                }
+
+                if (IsKeyPressed(KeyCode.A))
+                {
+                    Vector3 left = right_vector * -Speed;
+                    velocity += left;
+                }
+
+                if (IsKeyPressed(KeyCode.W))
+                {
+                    Vector3 forward = forward_vector * Speed;
+                    velocity += forward;
+                }
+
+                if (IsKeyPressed(KeyCode.S))
+                {
+                    Vector3 back = forward_vector * -Speed;
+                    velocity += back;
+                }
+
+                m_SphereColliderComponent.AddLinearVelocity(velocity * delta_time);
             }
 
 
