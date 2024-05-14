@@ -38,6 +38,8 @@ Entities:
       Offset: [-0.5, 6, 0]
       HalfHeight: 1
       Mass: 80
+      Friction: 0.5
+      Restitution: 0.5
     GlobalSounds:
       - Title: Untitled Sound
         Handle: 2108588432588945380
@@ -101,6 +103,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0
+              Mass: 70
               MotionType: Static
           - Entity: 4548931763252533158
             Tag: Wall2
@@ -113,6 +118,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0
+              Mass: 70
               MotionType: Static
           - Entity: 386840958478855610
             Tag: Wall3
@@ -125,6 +133,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0
+              Mass: 70
               MotionType: Static
           - Entity: 9691216530633384432
             Tag: Wall4
@@ -137,6 +148,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0
+              Mass: 70
               MotionType: Dynamic
       - Entity: 6942653108807427580
         Tag: Floor
@@ -149,6 +163,9 @@ Entities:
         BoxCollider:
           HalfSize: [1, 1, 1]
           Offset: [0, 0, 0]
+          Friction: 0.5
+          Restitution: 0.5
+          Mass: 70
           MotionType: Static
       - Entity: 170389741330486471
         Tag: Button
@@ -161,6 +178,9 @@ Entities:
         BoxCollider:
           HalfSize: [1, 1, 1]
           Offset: [0, 0, 0]
+          Friction: 0.5
+          Restitution: 0.5
+          Mass: 70
           MotionType: Static
       - Entity: 10651790145935193794
         Tag: Obstacles
@@ -187,6 +207,9 @@ Entities:
                 BoxCollider:
                   HalfSize: [1, 1, 1]
                   Offset: [0, 0, 0]
+                  Friction: 0.5
+                  Restitution: 0.5
+                  Mass: 70
                   MotionType: Static
               - Entity: 196560768025469019
                 Tag: Wall2
@@ -199,6 +222,9 @@ Entities:
                 BoxCollider:
                   HalfSize: [1, 1, 1]
                   Offset: [0, 0, 0]
+                  Friction: 0.5
+                  Restitution: 0.5
+                  Mass: 70
                   MotionType: Static
           - Entity: 1044739906291767427
             Tag: Walls2
@@ -218,6 +244,9 @@ Entities:
                 BoxCollider:
                   HalfSize: [1, 1, 1]
                   Offset: [0, 0, 0]
+                  Friction: 0.5
+                  Restitution: 0.5
+                  Mass: 70
                   MotionType: Static
           - Entity: 4747997233400436503
             Tag: Walls3
@@ -237,6 +266,9 @@ Entities:
                 BoxCollider:
                   HalfSize: [1, 1, 1]
                   Offset: [0, 0, 0]
+                  Friction: 0.5
+                  Restitution: 0.5
+                  Mass: 70
                   MotionType: Static
               - Entity: 1713351155073473584
                 Tag: Wall2
@@ -249,6 +281,9 @@ Entities:
                 BoxCollider:
                   HalfSize: [1, 1, 1]
                   Offset: [0, 0, 0]
+                  Friction: 0.5
+                  Restitution: 0.5
+                  Mass: 70
                   MotionType: Static
               - Entity: 1371820784128365873
                 Tag: Wall3
@@ -261,6 +296,9 @@ Entities:
                 BoxCollider:
                   HalfSize: [1, 1, 1]
                   Offset: [0, 0, 0]
+                  Friction: 0.5
+                  Restitution: 0.5
+                  Mass: 70
                   MotionType: Static
       - Entity: 6936647081517599949
         Tag: Goal
@@ -282,6 +320,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0.5
+              Mass: 70
               MotionType: Static
           - Entity: 8523461123976861700
             Tag: Rec2
@@ -294,6 +335,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0.5
+              Mass: 70
               MotionType: Static
           - Entity: 10580820665805692661
             Tag: Rec3
@@ -306,6 +350,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0.5
+              Mass: 70
               MotionType: Static
           - Entity: 15932473797256853017
             Tag: Rec4
@@ -318,6 +365,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0.5
+              Mass: 70
               MotionType: Static
           - Entity: 11454780426785475971
             Tag: Rec5
@@ -330,6 +380,9 @@ Entities:
             BoxCollider:
               HalfSize: [1, 1, 1]
               Offset: [0, 0, 0]
+              Friction: 0.5
+              Restitution: 0.5
+              Mass: 70
               MotionType: Static
       - Entity: 1800500615754059023
         Tag: Ball
@@ -342,6 +395,9 @@ Entities:
         SphereCollider:
           Radius: 1
           Offset: [0, 0, 0]
+          Friction: 0.5
+          Restitution: 0.5
+          Mass: 70
           MotionType: Dynamic
   - Entity: 5549818786462078079
     Tag: Boombox
@@ -354,6 +410,9 @@ Entities:
     BoxCollider:
       HalfSize: [0.400000006, 0.150000006, 0.0799999982]
       Offset: [0, 6.5999999, 0.5]
+      Friction: 0.5
+      Restitution: 0.5
+      Mass: 70
       MotionType: Dynamic
     LocalSounds:
       - Title: Untitled Sound
