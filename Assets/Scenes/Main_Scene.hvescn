@@ -3,15 +3,11 @@ Scene:
   Name: Main_Scene
   Skybox:
     Texture: 6655606017207834238
-    Brightness: 1.79999995
+    Brightness: 0.600000024
 Entities:
   - Entity: 1713987171
     Tag: Sun
     LocalTransformComponent:
-      Position: [-0.00152206421, 0.0583534241, -0.0802955553]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    WorldTransformComponent:
       Position: [-0.00152206421, 0.0583534241, -0.0802955553]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
@@ -23,11 +19,7 @@ Entities:
   - Entity: 3782211478
     Tag: Lion
     LocalTransformComponent:
-      Position: [0, 5.68630362, 0]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    WorldTransformComponent:
-      Position: [0, 5.68630362, 0]
+      Position: [-174.578568, 5.68631935, -5.00979614]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
     Script:
@@ -57,10 +49,6 @@ Entities:
       Position: [0, 6.54936075, 0]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
-    WorldTransformComponent:
-      Position: [0, 6.54936075, 0]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
     Script:
       ClassName: Last_Imagination.Camera
     Camera:
@@ -70,41 +58,9 @@ Entities:
       Far: 1000
       Zoom: 30
       IsPrimary: true
-  - Entity: 6942653108807427580
-    Tag: Floor
-    LocalTransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [28.658186, 1, 21.3674393]
-    WorldTransformComponent:
-      Position: [0, 0, 0]
-      Rotation: [0, -0, 0]
-      Scale: [28.658186, 1, 21.3674393]
-    Mesh:
-      Handle: 8257606661965876714
-    BoxCollider:
-      HalfSize: [1, 1, 1]
-      Offset: [0, 0, 0]
-      MotionType: Static
-  - Entity: 6051760811940563416
-    Tag: New Mesh Entity
-    LocalTransformComponent:
-      Position: [13.5716915, 10.4867783, 0]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    WorldTransformComponent:
-      Position: [13.5716915, 10.4867783, 0]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    Mesh:
-      Handle: 2112335568811613447
   - Entity: 2558583908428923971
-    Tag: New Mesh Entity
+    Tag: AAa
     LocalTransformComponent:
-      Position: [-20.0788479, 5.54435444, 15.7697582]
-      Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
-    WorldTransformComponent:
       Position: [-20.0788479, 5.54435444, 15.7697582]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
@@ -116,5 +72,292 @@ Entities:
       - Title: Untitled Sound
         Handle: 2108588432588945380
         Looping: false
-        Volume: 1
-        Rolloff: 0.100000001
+        Volume: 2.64899993
+        Rolloff: 0.0860000029
+  - Entity: 1320770443877523943
+    Tag: Stage
+    LocalTransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    Mesh:
+      Handle: 2112335568811613447
+    Children:
+      - Entity: 9694339336382336193
+        Tag: Walls
+        LocalTransformComponent:
+          Position: [0, 0, 0]
+          Rotation: [0, -0, 0]
+          Scale: [1, 1, 1]
+        Children:
+          - Entity: 16314819910427418867
+            Tag: Wall1
+            LocalTransformComponent:
+              Position: [0, 31, 100]
+              Rotation: [0, -0, 0]
+              Scale: [200, 30, 1]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 4548931763252533158
+            Tag: Wall2
+            LocalTransformComponent:
+              Position: [-200, 31, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 30, 100]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 386840958478855610
+            Tag: Wall3
+            LocalTransformComponent:
+              Position: [0, 31, -100]
+              Rotation: [0, -0, 0]
+              Scale: [200, 30, 1]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 9691216530633384432
+            Tag: Wall4
+            LocalTransformComponent:
+              Position: [200, 31, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 30, 100]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Dynamic
+      - Entity: 6942653108807427580
+        Tag: Floor
+        LocalTransformComponent:
+          Position: [0, 0, 0]
+          Rotation: [0, -0, 0]
+          Scale: [200, 1, 100]
+        Mesh:
+          Handle: 8257606661965876714
+        BoxCollider:
+          HalfSize: [1, 1, 1]
+          Offset: [0, 0, 0]
+          MotionType: Static
+      - Entity: 170389741330486471
+        Tag: Button
+        LocalTransformComponent:
+          Position: [-156.014313, 2, -16.4605503]
+          Rotation: [0, -0, 0]
+          Scale: [5, 1, 5]
+        Mesh:
+          Handle: 8257606661965876714
+        BoxCollider:
+          HalfSize: [1, 1, 1]
+          Offset: [0, 0, 0]
+          MotionType: Static
+      - Entity: 10651790145935193794
+        Tag: Obstacles
+        LocalTransformComponent:
+          Position: [-17.7807102, 0, 0]
+          Rotation: [0, 0, 0]
+          Scale: [1, 1, 1]
+        Children:
+          - Entity: 13021569093093610356
+            Tag: Walls1
+            LocalTransformComponent:
+              Position: [9.05208397, 0, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+            Children:
+              - Entity: 10088745090790411908
+                Tag: Wall1
+                LocalTransformComponent:
+                  Position: [-94.9972382, 31, -41.4645767]
+                  Rotation: [0, -0, 0]
+                  Scale: [5.19999981, 30, 57.2000008]
+                Mesh:
+                  Handle: 8257606661965876714
+                BoxCollider:
+                  HalfSize: [1, 1, 1]
+                  Offset: [0, 0, 0]
+                  MotionType: Static
+              - Entity: 196560768025469019
+                Tag: Wall2
+                LocalTransformComponent:
+                  Position: [-39.9972382, 31, -39.9659424]
+                  Rotation: [0, -0, 0]
+                  Scale: [50, 30, 5]
+                Mesh:
+                  Handle: 8257606661965876714
+                BoxCollider:
+                  HalfSize: [1, 1, 1]
+                  Offset: [0, 0, 0]
+                  MotionType: Static
+          - Entity: 1044739906291767427
+            Tag: Walls2
+            LocalTransformComponent:
+              Position: [9.05208397, 0, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+            Children:
+              - Entity: 91864597481540605
+                Tag: Wall1
+                LocalTransformComponent:
+                  Position: [-19.997242, 31, 50]
+                  Rotation: [0, -0, 0]
+                  Scale: [5, 30, 50]
+                Mesh:
+                  Handle: 8257606661965876714
+                BoxCollider:
+                  HalfSize: [1, 1, 1]
+                  Offset: [0, 0, 0]
+                  MotionType: Static
+          - Entity: 4747997233400436503
+            Tag: Walls3
+            LocalTransformComponent:
+              Position: [9.05208397, 0, 0]
+              Rotation: [0, -0, 0]
+              Scale: [1, 1, 1]
+            Children:
+              - Entity: 1605310636024440117
+                Tag: Wall1
+                LocalTransformComponent:
+                  Position: [56.1338501, 31, -49.9504395]
+                  Rotation: [0, -0, 0]
+                  Scale: [5, 30, 49.5299988]
+                Mesh:
+                  Handle: 8257606661965876714
+                BoxCollider:
+                  HalfSize: [1, 1, 1]
+                  Offset: [0, 0, 0]
+                  MotionType: Static
+              - Entity: 1713351155073473584
+                Tag: Wall2
+                LocalTransformComponent:
+                  Position: [86.6674576, 31, -55.0463333]
+                  Rotation: [0, -0, 0]
+                  Scale: [25.5761547, 30, 5]
+                Mesh:
+                  Handle: 8257606661965876714
+                BoxCollider:
+                  HalfSize: [1, 1, 1]
+                  Offset: [0, 0, 0]
+                  MotionType: Static
+              - Entity: 1371820784128365873
+                Tag: Wall3
+                LocalTransformComponent:
+                  Position: [100.697044, 31, 47.0848923]
+                  Rotation: [0, -0, 0]
+                  Scale: [5, 30, 52.9393425]
+                Mesh:
+                  Handle: 8257606661965876714
+                BoxCollider:
+                  HalfSize: [1, 1, 1]
+                  Offset: [0, 0, 0]
+                  MotionType: Static
+      - Entity: 6936647081517599949
+        Tag: Goal
+        LocalTransformComponent:
+          Position: [15.0774689, 0, 0]
+          Rotation: [0, -0, 0]
+          Scale: [1, 1, 1]
+        Mesh:
+          Handle: 8257606661965876714
+        Children:
+          - Entity: 6310503337311159043
+            Tag: Rec1
+            LocalTransformComponent:
+              Position: [160.207474, 6.75, -9.10999966]
+              Rotation: [0, 0.34906587, 0]
+              Scale: [9.99999714, 5.75, 3.00000024]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 8523461123976861700
+            Tag: Rec2
+            LocalTransformComponent:
+              Position: [175.757614, 6.75, -7.74669266]
+              Rotation: [0, -0.52359879, 0]
+              Scale: [10.0000019, 5.75, 3.00000119]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 10580820665805692661
+            Tag: Rec3
+            LocalTransformComponent:
+              Position: [182.959045, 6.74999237, 4.6702342]
+              Rotation: [0, 1.57045102, 0]
+              Scale: [9.99999905, 5.75, 3.00000072]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 15932473797256853017
+            Tag: Rec4
+            LocalTransformComponent:
+              Position: [175.791199, 6.74999619, 17.1080704]
+              Rotation: [0, 0.52359879, 0]
+              Scale: [9.99999619, 5.75, 2.99999833]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+          - Entity: 11454780426785475971
+            Tag: Rec5
+            LocalTransformComponent:
+              Position: [160.137466, 6.74999762, 18.4500008]
+              Rotation: [0, -0.34906584, 0]
+              Scale: [10, 5.75, 3.00000072]
+            Mesh:
+              Handle: 8257606661965876714
+            BoxCollider:
+              HalfSize: [1, 1, 1]
+              Offset: [0, 0, 0]
+              MotionType: Static
+      - Entity: 1800500615754059023
+        Tag: Ball
+        LocalTransformComponent:
+          Position: [-129.354248, 9.72089958, 0]
+          Rotation: [0, -0, 0]
+          Scale: [5, 5, 5]
+        Mesh:
+          Handle: 2112335568811613447
+        SphereCollider:
+          Radius: 1
+          Offset: [0, 0, 0]
+          MotionType: Dynamic
+  - Entity: 5549818786462078079
+    Tag: Boombox
+    LocalTransformComponent:
+      Position: [129.396805, 1.57327831, -75.4976196]
+      Rotation: [2.59949934e-06, 0.405608386, 6.94859125e-07]
+      Scale: [44.618618, 44.6185684, 44.618618]
+    Mesh:
+      Handle: 17393403393180070285
+    BoxCollider:
+      HalfSize: [0.400000006, 0.150000006, 0.0799999982]
+      Offset: [0, 6.5999999, 0.5]
+      MotionType: Dynamic
+    LocalSounds:
+      - Title: Untitled Sound
+        Handle: 16049145493763031330
+        Looping: true
+        Volume: 10
+        Rolloff: 0.0179999992
