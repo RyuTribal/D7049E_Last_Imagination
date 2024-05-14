@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:921eb065b4308a0e5b3f0f0913ba3c8f56a6bbf8fac6ac648c75e44f4687e8fb
-size 190
+Diffuse=T_M_B_44_Qishilong_body01_B
+Normal=T_M_B_44_Qishilong_body01_N
+Other[0]=T_M_B_44_Qishilong_body01_mask
+Other[1]=T_M_B_44_Qishilong_body01_ORM
+Other[2]=Adsd
+Other[3]=T_Noise_07

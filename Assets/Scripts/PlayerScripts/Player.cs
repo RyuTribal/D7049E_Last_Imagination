@@ -46,8 +46,8 @@ namespace Last_Imagination
         void OnUpdate(float delta_time)
         {
             // Console.WriteLine($"Player updating, delta time {delta_time}");
-           
-            if(m_CharacterControllerComponent != null)
+
+            if (m_CharacterControllerComponent != null)
             {
                 Vector3 velocity = new Vector3(0.0f);
                 Vector3 forward_vector = m_Camera.GetForwardDirection();
@@ -78,7 +78,7 @@ namespace Last_Imagination
 
                 m_CharacterControllerComponent.AddLinearVelocity(velocity * delta_time);
             }
-            else if(m_BoxCollider != null) 
+            else if (m_BoxCollider != null)
             {
                 Vector3 velocity = new Vector3(0.0f);
                 Vector3 forward_vector = m_Camera.GetForwardDirection();
@@ -89,7 +89,7 @@ namespace Last_Imagination
                     velocity += right;
                 }
 
-                if(IsKeyPressed(KeyCode.A)) 
+                if (IsKeyPressed(KeyCode.A))
                 {
                     Vector3 left = right_vector * -Speed;
                     velocity += left;
@@ -109,7 +109,7 @@ namespace Last_Imagination
 
                 m_BoxCollider.AddLinearVelocity(velocity * delta_time);
             }
-            else if(m_SphereColliderComponent != null) 
+            else if (m_SphereColliderComponent != null)
             {
                 Vector3 velocity = new Vector3(0.0f);
                 Vector3 forward_vector = m_Camera.GetForwardDirection();

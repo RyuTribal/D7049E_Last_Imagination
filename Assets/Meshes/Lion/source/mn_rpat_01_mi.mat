@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c04042096fa0aa4b0458429f0b663507e5ddd18031b18c7638bb74cde4172f50
-size 236
+Diffuse=mn_rpat_00-1_d
+Normal=mn_rpat_00-1_n
+Specular=mn_rpat_00-1_s
+SpecPower=brdf_beckmann_spec
+Other[0]=spec
+Other[1]=hdr07_1
+Other[2]=normal
+Other[3]=diffuse
+Other[4]=flat_red
+Other[5]=flat_black
+Other[6]=statefx_default

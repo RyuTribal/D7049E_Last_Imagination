@@ -5,3 +5,10 @@ C:\Programming\Last_Imagination\Last_Imagination\Binaries\Intermediates\Debug\La
 C:\Programming\Last_Imagination\Last_Imagination\Binaries\Intermediates\Debug\Last_Imagination.pdb
 C:\Programming\Last_Imagination\Last_Imagination\Binaries\Last_Imagination.dll
 C:\Programming\Last_Imagination\Last_Imagination\Binaries\Last_Imagination.pdb
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Intermediates\Debug\Last_Imagination.csproj.AssemblyReference.cache
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Intermediates\Debug\Last_Imagination.csproj.CoreCompileInputs.cache
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Intermediates\Debug\Last_Imagination.dll
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Intermediates\Debug\Last_Imagination.pdb
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Intermediates\Debug\Last_Ima.44CE8180.Up2Date
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Last_Imagination.dll
+I:\matzuu\D7049E\D7049E_Last_Imagination\Binaries\Last_Imagination.pdb
