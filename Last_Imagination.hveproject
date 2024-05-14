@@ -7,4 +7,4 @@ Renderer:
   AntiAliasing:
     Type: Multi Sampling
     PostProcessing: None
-    Multiplier: 16
+    Multiplier: 8
