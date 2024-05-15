@@ -77,6 +77,12 @@ namespace Last_Imagination
                 }
 
                 m_CharacterControllerComponent.AddLinearVelocity(velocity * delta_time);
+
+                if (IsKeyPressed(KeyCode.Space) && m_CharacterControllerComponent.IsCharacterGrounded())
+                {
+                    Vector3 impulseVec = new Vector3(0.0f, 500000.0f, 0.0f);
+                    m_CharacterControllerComponent.AddImpulse(impulseVec * delta_time);
+                }
             }
             else if (m_BoxCollider != null)
             {

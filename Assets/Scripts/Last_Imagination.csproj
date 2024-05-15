@@ -51,35 +51,35 @@
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <Reference Include="ScriptCore">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\Resources\Scripts\ScriptCore.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\Resources\Scripts\ScriptCore.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.Vectors.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <Reference Include="ScriptCore">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\Resources\Scripts\ScriptCore.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\Resources\Scripts\ScriptCore.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.Vectors.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Dist|x64' ">
     <Reference Include="ScriptCore">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\Resources\Scripts\ScriptCore.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\Resources\Scripts\ScriptCore.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>C:\Users\Mattias\source\repos\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>..\..\..\D7049E\Editor\mono\lib\mono\4.5\System.Numerics.Vectors.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
