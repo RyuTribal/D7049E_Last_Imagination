@@ -17,63 +17,69 @@ AssetRegistry:
   - Handle: 3891020616
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_d.png
     Type: Texture
+  - Handle: 3528914611200612234
+    FilePath: Assets\Sounds\Last Imagination Victory.wav
+    Type: Audio
   - Handle: 267282250
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_m.png
-    Type: Texture
-  - Handle: 1652518942
-    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_d.png
     Type: Texture
   - Handle: 1120478174
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00_cm.png
     Type: Texture
+  - Handle: 1652518942
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_d.png
+    Type: Texture
   - Handle: 838558135
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00-1_s.png
+    Type: Texture
+  - Handle: 830867483
+    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_n.png
     Type: Texture
   - Handle: 18431875650174362011
     FilePath: Assets\Sounds\Taco-Bell-Bong-sound-effect.mp3
     Type: Audio
-  - Handle: 830867483
-    FilePath: Assets\Meshes\Lion\source\mn_rpat_00_n.png
-    Type: Texture
   - Handle: 1157402806
     FilePath: Assets\Scenes\Main_Scene.hvescn
     Type: Scene
-  - Handle: 17432095856882841042
-    FilePath: Assets\Meshes\pbr_test_sphere\scene.gltf
-    Type: MeshSource
   - Handle: 2107762386
     FilePath: Assets\Meshes\Lion\source\lion.FBX
+    Type: MeshSource
+  - Handle: 17432095856882841042
+    FilePath: Assets\Meshes\pbr_test_sphere\scene.gltf
     Type: MeshSource
   - Handle: 2690334057
     FilePath: Assets\Meshes\Lion\textures\mn_rpat_00-1_d.png
     Type: Texture
-  - Handle: 12966387179108173351
-    FilePath: Assets\Meshes\Emily_FBX_Idle Animation\Emily_Idle.fbx
-    Type: MeshSource
   - Handle: 11717909310150256743
     FilePath: Assets\Meshes\Dragon\source\Tarisland - Dragon\M_B_44_Qishilong_skin_Skeleton.FBX
+    Type: MeshSource
+  - Handle: 12966387179108173351
+    FilePath: Assets\Meshes\Emily_FBX_Idle Animation\Emily_Idle.fbx
     Type: MeshSource
   - Handle: 1697158804
     FilePath: Assets\Meshes\Lion\source\mn_rpat_00_emissive.png
     Type: Texture
-  - Handle: 9098347062099199486
-    FilePath: Assets\Meshes\Primitives\Cone.fbx
-    Type: MeshSource
   - Handle: 6655606017207834238
     FilePath: Assets\Textures\default_skybox.hdr
     Type: CubeMap
+  - Handle: 9098347062099199486
+    FilePath: Assets\Meshes\Primitives\Cone.fbx
+    Type: MeshSource
   - Handle: 8257606661965876714
     FilePath: Assets\Meshes\Primitives\Cube.fbx
     Type: MeshSource
   - Handle: 14721588791511887632
     FilePath: Assets\Meshes\Primitives\Pyramid.fbx
     Type: MeshSource
-  - Handle: 2112335568811613447
-    FilePath: Assets\Meshes\Primitives\Sphere.fbx
-    Type: MeshSource
+  - Handle: 1783436930699518919
+    FilePath: Assets\Sounds\Box Pushed.wav
+    Type: Audio
   - Handle: 2497089337552318983
     FilePath: Assets\Sounds\delphi_loop.ogg
     Type: Audio
+  - Handle: 2112335568811613447
+    FilePath: Assets\Meshes\Primitives\Sphere.fbx
+    Type: MeshSource
   - Handle: 2108588432588945380
     FilePath: Assets\Sounds\ahhh-sound-effect-made-with-Voicemod.mp3
     Type: Audio
@@ -88,4 +94,7 @@ AssetRegistry:
     Type: MeshSource
   - Handle: 16049145493763031330
     FilePath: Assets\Sounds\Mirage.mp3
+    Type: Audio
+  - Handle: 10959961647273474539
+    FilePath: Assets\Sounds\Last Imagination BGM 1.wav
     Type: Audio

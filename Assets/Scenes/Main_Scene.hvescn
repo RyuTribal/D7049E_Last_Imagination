@@ -17,11 +17,11 @@ Entities:
       Intensity: 1
       IsCastingShadows: false
   - Entity: 3782211478
-    Tag: Lion
+    Tag: Player
     LocalTransformComponent:
       Position: [-174.578568, 5.68631935, -5.00979614]
       Rotation: [0, -0, 0]
-      Scale: [1, 1, 1]
+      Scale: [4, 4, 4]
     Script:
       ClassName: Last_Imagination.Player
     Camera:
@@ -32,11 +32,11 @@ Entities:
       Zoom: 30
       IsPrimary: true
     Mesh:
-      Handle: 2107762386
+      Handle: 8257606661965876714
     CharacterController:
-      Radius: 5.5
-      Offset: [-0.5, 6, 0]
-      HalfHeight: 1
+      Radius: 1.20000005
+      Offset: [0, 1.5, 0]
+      HalfHeight: 0.200000003
       Mass: 80
       Friction: 0.5
       Restitution: 0.5
@@ -306,8 +306,23 @@ Entities:
           Position: [15.0774689, 0, 0]
           Rotation: [0, -0, 0]
           Scale: [1, 1, 1]
+        Script:
+          ClassName: Last_Imagination.Goal
         Mesh:
           Handle: 8257606661965876714
+        BoxCollider:
+          HalfSize: [12.1000004, 11.6000004, 12.3999996]
+          Offset: [166.100006, 0, 4.9000001]
+          Friction: 0.5
+          Restitution: 0.5
+          Mass: 70
+          MotionType: Dynamic
+        LocalSounds:
+          - Title: Victory
+            Handle: 3528914611200612234
+            Looping: false
+            Volume: 1
+            Rolloff: 0.100000001
         Children:
           - Entity: 6310503337311159043
             Tag: Rec1
@@ -390,6 +405,8 @@ Entities:
           Position: [-129.354248, 9.72089958, 0]
           Rotation: [0, -0, 0]
           Scale: [5, 5, 5]
+        Script:
+          ClassName: Last_Imagination.Ball
         Mesh:
           Handle: 2112335568811613447
         SphereCollider:
@@ -399,12 +416,20 @@ Entities:
           Restitution: 0.5
           Mass: 70
           MotionType: Dynamic
+        LocalSounds:
+          - Title: Push
+            Handle: 1783436930699518919
+            Looping: false
+            Volume: 7.24499989
+            Rolloff: 0
   - Entity: 5549818786462078079
     Tag: Boombox
     LocalTransformComponent:
       Position: [129.396805, 1.57327831, -75.4976196]
       Rotation: [2.59949934e-06, 0.405608386, 6.94859125e-07]
       Scale: [44.618618, 44.6185684, 44.618618]
+    Script:
+      ClassName: Last_Imagination.Boombox
     Mesh:
       Handle: 17393403393180070285
     BoxCollider:
@@ -414,6 +439,11 @@ Entities:
       Restitution: 0.5
       Mass: 70
       MotionType: Dynamic
+    GlobalSounds:
+      - Title: Untitled Sound
+        Handle: 10959961647273474539
+        Looping: false
+        Volume: 0.386999995
     LocalSounds:
       - Title: Untitled Sound
         Handle: 16049145493763031330
